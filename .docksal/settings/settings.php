@@ -88,7 +88,16 @@
  * ];
  * @endcode
  */
-$databases = [];
+$databases['default']['default'] = [
+     'database' => 'default',
+     'username' => 'DreamTeam',
+     'password' => 'DreamTeam',
+     'host' => 'localhost',
+     'port' => '3306',
+     'driver' => 'mysql',
+     'prefix' => '',
+     'collation' => 'utf8mb4_general_ci',
+   ];
 
 /**
  * Customizing database settings.
@@ -267,6 +276,7 @@ $databases = [];
  * @endcode
  */
 $config_directories = [];
+$settings['config_sync_directory'] = 'sync';
 
 /**
  * Settings:
@@ -295,7 +305,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'DreamTeam';
 
 /**
  * Deployment identifier.

@@ -27,10 +27,18 @@ echo-yellow () { echo -e "${yellow}$1${NC}"; }
 echo -e "${green_bg} Step 1 ${NC}${green} Initializing stack...${NC}"
 fin project reset -f
 
+echo-green "Dream team setting..."
+fin config set XDEBUG_ENABLED=1
+fin config set CLI_IMAGE=docksal/cli:2.12-php7.4
+fin config set MYSQL_PASSWORD=DreamTeam
+fin config set MYSQL_USER=DreamTeam
+
 # Site initialization
 echo -e "${green_bg} Step 2 ${NC}${green} Initializing site...${NC}"
 # This runs inside cli using http://docs.docksal.io/en/v1.4.0/fin/custom-commands/#executing-commands-inside-cli
 fin init-site
+
+fin project reset cli
 
 echo -e "${green_bg} DONE! ${NC}${green} Completed all initialization steps.${NC}"
 
