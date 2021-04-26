@@ -1,6 +1,6 @@
 ### Docksal environment setup
 
-**!ATTENSION! installation may take a while so it will be a good idea to grab yourself some tea**
+**!ATTENTION! installation may take a while so it will be a good idea to grab yourself some tea**
  
 ```bash
 git clone https://github.com/dlevchik/DreamTeam.git
