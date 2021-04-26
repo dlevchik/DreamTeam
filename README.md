@@ -1,6 +1,6 @@
 ### Docksal environment setup
 
-**!ATTENTION! installation may take a while so it will be a good idea to grab yourself some tea**
+**!ATTENTION! installation may take a while, so it will be a great idea to grab yourself some tea**
  
 ```bash
 git clone https://github.com/dlevchik/DreamTeam.git
@@ -22,6 +22,8 @@ If everything works properly you would be able to see news content type on your 
 
 
 ### TODO:
+- add modules to composer
+- try to import db
 - Edit .gitignore
 - setup xdebug
-- fix [shortcut.set.default.yml](https://www.drupal.org/project/drupal/issues/2583113)
+- ~~fix [shortcut.set.default.yml](https://www.drupal.org/project/drupal/issues/2583113)~~
