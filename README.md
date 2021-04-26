@@ -6,10 +6,10 @@
 git clone https://github.com/dlevchik/DreamTeam.git
 cd DreamTeam
 fin init
-fin drush csi [to import sync db]
+fin drush cim [to import sync files]
 ```
 
-If everything works properly you would be able to see news content type on your drupal installation(don't work at the moment)
+If everything works properly you would be able to see news content type on your drupal installation
 
 ### Differences between [original](https://github.com/docksal/boilerplate-drupal9-composer) 
 - Edited commands: init, init-site
@@ -18,10 +18,10 @@ If everything works properly you would be able to see news content type on your 
 - Drupal Sync: /sync in web root
 - Drupal uuid: de42e067-6fab-4359-8296-97489d9c0964
 
-**Make sure you run fin drush content-sync:export and fin drush content-sync:import every time you commit**
+**Make sure you run fin drush cex and fin drush cim every time you commit**
 
 
 ### TODO:
 - Edit .gitignore
 - setup xdebug
-- Fix sync import
+- fix [shortcut.set.default.yml](https://www.drupal.org/project/drupal/issues/2583113)
