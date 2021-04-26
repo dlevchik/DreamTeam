@@ -39,8 +39,8 @@ echo -e "${green_bg} Step 2 ${NC}${green} Initializing site...${NC}"
 fin init-site
 
 fin project reset cli
-fin drush config-set "system.site" uuid de42e067-6fab-4359-8296-97489d9c0964
-sin drush cr
+fin drush config-set "system.site" uuid de42e067-6fab-4359-8296-97489d9c0964 -y
+fin drush cr
 
 echo -e "${green_bg} DONE! ${NC}${green} Completed all initialization steps.${NC}"
 
