@@ -14,6 +14,7 @@ If everything works properly you would be able to see news content type on your 
 - Mysql user: DreamTeam::Dreamteam
 - Drupal user: admin::DreamTeam
 - Drupal Sync: /sync in web root
+- Drupal uuid: de42e067-6fab-4359-8296-97489d9c0964
 
 **Make sure you run fin drush content-sync:export and drush content-sync:import every time you commit**
 
