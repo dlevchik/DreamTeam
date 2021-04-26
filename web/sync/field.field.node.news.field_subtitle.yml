@@ -1,0 +1,19 @@
+uuid: b52507a4-c0dc-4853-911b-6fbc4db490c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.news
+id: node.news.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: news
+label: subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
