@@ -1,3 +1,5 @@
+#Repository moved to https://github.com/LeonidScorp/Poetic.io/tree/theme
+
 ### Docksal environment setup
 
 **!ATTENTION! installation may take a while, so it will be a great idea to grab yourself some tea**
@@ -25,8 +27,8 @@ If everything works properly you would be able to see news content type on your 
 
 
 ### TODO:
-- add modules to composer
-- try to import db
-- Edit .gitignore
-- setup xdebug
-- ~~fix [shortcut.set.default.yml](https://www.drupal.org/project/drupal/issues/2583113)~~
+- [ ] add modules to composer
+- [x] try to import db
+- [ ] Edit .gitignore
+- [ ] setup xdebug
+- [x] [fix shortcut.set.default.yml](https://www.drupal.org/project/drupal/issues/2583113)
