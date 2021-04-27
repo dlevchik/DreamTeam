@@ -7,6 +7,7 @@ git clone https://github.com/dlevchik/DreamTeam.git
 cd DreamTeam
 fin init
 fin drush cim [to import sync files]
+fin db import dump.sql
 ```
 
 If everything works properly you would be able to see news content type on your drupal installation
