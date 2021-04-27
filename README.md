@@ -17,6 +17,8 @@ If everything works properly you would be able to see news content type on your 
 - Drupal user: admin::DreamTeam
 - Drupal Sync: /sync in web root
 - Drupal uuid: de42e067-6fab-4359-8296-97489d9c0964
+- Drupal hash: DreamTeam
+- php cli: 7.4
 
 **Make sure you run fin drush cex and fin drush cim every time you commit**
 
